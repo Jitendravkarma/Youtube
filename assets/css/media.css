@@ -3,6 +3,6 @@
 		display: none;
 	}
 	#mainbar {
-		margin-left: -30%;
+		margin-left: 0% !important;
 	}
 }
