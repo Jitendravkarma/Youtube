@@ -1,0 +1,8 @@
+@media all and (max-width: 550px) {
+	.menus {
+		display: none;
+	}
+	#mainbar {
+		margin-left: 0%;
+	}
+}

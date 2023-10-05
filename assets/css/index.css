@@ -1,0 +1,92 @@
+@import "media.css";
+.sidebar {
+	top: 0;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.logo i {
+	flex-basis: 20%;
+	font-size: 20px;
+}
+.logo img {
+	width: 90px;
+}
+.menus ul {
+	list-style-type: none;
+}
+.menus ul a {
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+	color: black;
+}
+.menus ul a i {
+	flex-basis: 30%;
+}
+.menus ul a img{
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+.navigationbar {
+	top: 0;
+}
+.search {
+	padding: 10px;
+	flex-basis: 75%;
+}
+.search form {
+	width: 80%;
+}
+.search form input {
+	padding-left: 10px;
+	font-size: 18px;
+	margin: 0;
+	border-radius: 30px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.search form button {
+	width: 70px;
+	border-left: none;
+	border-radius: 30px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.search .speak button {
+	display: inline-block;
+	width: 40px;
+	border-radius: 50%;
+}
+.profile {
+	flex-basis: 25%;
+	font-size: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+.profile i {
+	flex-basis: 50px;
+}
+#mainbar {
+	margin-left: 16%;
+}
+.itms .img iframe {
+	width: 100%;
+	border-radius: 15px;
+}
+.itms .content img {
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+nav a {
+	font-weight: bold;
+	border: 1px solid;
+	border-radius: 10px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+}
