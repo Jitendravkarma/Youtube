@@ -18,5 +18,9 @@ function smallbar() {
 	}
 	else {
 		bar.style.left ="0%";
+		bar.style.display="block";
 	}
+}
+if (window.innerWidth < "500px" || window.innerWidth > "800px") {
+	document.getElementById('sidebar').style.display="block";
 }
