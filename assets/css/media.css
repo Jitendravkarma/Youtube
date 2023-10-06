@@ -38,7 +38,35 @@
 		transition: .3s;
 	}
 }
-@media all and (max-width: 680px){
+@media all and (max-width: 800px){
+	.search {
+		justify-content: space-evenly !important;
+	}
+	.search form {
+		flex-basis: 60% !important;
+		text-align: right !important;
+	}
+	.search form input {
+		width: 70% !important;
+	}
+}
+@media all and (max-width: 700px){
+	.navbar {
+		justify-content: space-between !important;
+	}
+	.search {
+		flex-basis: 50% !important;
+		justify-content: space-evenly !important;
+	}
+	.search form {
+		flex-basis: 60% !important;
+		text-align: right !important;
+	}
+	.search form input {
+		width: 70% !important;
+	}
+}
+@media all and (max-width: 530px){
 	#larg {
 		display: none !important;
 	}

@@ -14,10 +14,11 @@ body {
 	box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1) inset;
 }
 .search form {
-	flex-basis: 78%;
+	flex-basis: 78% !important;
 	text-align: center;
 }
 .search .speak {
+	text-align: center;
 	flex-basis: 20%;
 }
 .search .speak button {
