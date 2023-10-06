@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function () {
+	setTimeout(()=>{
+		document.querySelector('.buffering').style.display="none";
+		document.querySelector('.container-fluid').style.display="block";
+	}, 4000);
+});
 function largbar() {
 	let bar = document.getElementById('sidebar');
 	let main = document.getElementById('content');
