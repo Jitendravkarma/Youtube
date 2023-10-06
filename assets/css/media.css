@@ -21,7 +21,7 @@
 		width: 70% !important;
 	}
 	.search form button {
-		width: 30% !important;
+		width: 60px !important;
 	}
 	.profile {
 		flex-basis: 20% !important;
@@ -38,7 +38,7 @@
 		transition: .3s;
 	}
 }
-@media all and (max-width: 650px){
+@media all and (max-width: 680px){
 	#larg {
 		display: none !important;
 	}
@@ -71,6 +71,7 @@
 		position: fixed;
 		background-color: white;
 		width: 50%;
+		height: 100vh;
 		display: block;
 		left: -50%;
 		transition: .3s;
