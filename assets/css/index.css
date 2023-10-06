@@ -1,61 +1,21 @@
 @import "media.css";
-.sidebar {
+*{
+	box-sizing: border-box;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.navbar {
 	top: 0;
-}
-.logo {
-	display: flex;
-	align-items: center;
-	padding-left: 5px;
-}
-.logo i {
-	flex-basis: 30%;
-	font-size: 20px;
-}
-.logo img {
-	width: 90px;
-}
-.menus ul {
-	list-style-type: none;
-}
-.menus ul a {
-	text-decoration: none;
-	padding: 10px 5px 10px 5px;
-	font-size: 15px;
-	color: black;
-}
-.menus ul a i {
-	flex-basis: 30%;
-}
-.menus ul a img{
-	width: 35px;
-	border-radius: 50%;
-	margin-right: 8px;
-}
-.navigationbar {
-	top: 0;
-}
-.search {
+	width: 100%;
 	padding: 10px;
-	flex-basis: 75%;
-	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1) inset;
 }
 .search form {
-	flex-basis: 75%;
-}
-.search form input {
-	padding-left: 10px;
-	font-size: 18px;
-	margin: 0;
-	border-radius: 30px;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-}
-.search form button {
-	width: 70px;
-	border-left: none;
-	border-radius: 30px;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+	flex-basis: 78%;
+	text-align: center;
 }
 .search .speak {
 	flex-basis: 20%;
@@ -65,32 +25,72 @@
 	width: 40px;
 	border-radius: 50%;
 }
-.profile {
-	flex-basis: 25%;
-	font-size: 20px;
-	display: flex;
-	justify-content: flex-end;
-}
-.profile i {
-	flex-basis: 50px;
-}
-#mainbar {
-	margin-left: 16%;
-}
-.itms .img iframe {
-	width: 100%;
-	border-radius: 15px;
-}
-.itms .content img {
-	width: 35px;
-	border-radius: 50%;
-	margin-right: 8px;
-}
-nav a {
-	font-weight: bold;
+.search form input {
+	width: 85%;
 	border: 1px solid;
-	border-radius: 3px;
-	cursor: pointer;
-	display: inline-block;
-	margin: 0px 5px 0px 5px;
+	border-radius: 20px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	transition: .3s;
+}
+.search form button {
+	width: 10%;
+	border: 1px solid;
+	border-left: none;
+	border-radius: 20px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.profile {
+	font-size: 20px;
+}
+
+.main-content {
+	width: 99%;
+	padding: 10px;
+	margin: auto;
+}
+.sidebar {
+	transition: .3s;
+}
+.sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar ul li span {
+	flex-basis: 15%;
+}
+.sidebar ul li a {
+	display: block;
+	padding: 10px 0px 10px 0px;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+}
+.box {
+	padding: 10px 0px 0px 15px;
+}
+#small {
+	display: none;
+}
+.box .img {
+	width: 100%;
+}
+.box .img iframe {
+	aspect-ratio: 16/9;
+    height: auto;
+    width: 95%;
+    border-radius: 15px;
+}
+span img {
+	width: 30px;
+	border-radius: 50%;
+}
+.des p {
+	margin: 0;
+}
+#indent {
+	margin-left: 35px;
+	margin-bottom: 10px	;
 }
