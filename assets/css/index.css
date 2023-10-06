@@ -6,12 +6,41 @@ body {
 	padding: 0;
 	margin: 0;
 }
+.buffering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.buffer {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	animation: 1s animate infinite alternate;
+}
+.buffer img{
+	width: 100px;
+}
+@keyframes animate {
+	0% {
+		box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+	}
+	100% {
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+	}
+}
+.container-fluid {
+	display: none;
+}
 .navbar {
 	top: 0;
 	width: 100%;
 	padding: 10px;
 	z-index: 1000;
-	box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 .search {
 	justify-content: space-evenly !important;
