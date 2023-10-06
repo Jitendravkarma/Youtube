@@ -58,6 +58,9 @@
 		flex-basis: 50% !important;
 		justify-content: space-evenly !important;
 	}
+	.search .speak {
+		text-align: center !important;
+	}
 	.search form {
 		flex-basis: 60% !important;
 		text-align: right !important;
